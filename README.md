@@ -5,15 +5,15 @@ Table of Contents
 
 ## Table of Contents
 1. Pre-requisites
-2. Technology Stacks
+2. Key Technologies and Skills
 3. Usage
 4. Data Scrapping
-5. Storing to MySQL
+5. Storing in MySQL
 6. Querying
 7. Viewing and Visualization
 8. Further Improvements
 
-## Libraries needed :
+## Pre-requisites :
 Install the following packages to run the project :
 1. pip install streamlit
 2. pip install google-api-python-client
@@ -30,6 +30,21 @@ Install the following packages to run the project :
 4. Application Programming Interface (API) integration
 5. Streamlit development
 6. Plotly visualization
+
+## Usage
+To use this project, follow these steps:
+1. Clone the repository
+2. Install the required packages
+3. Run the Streamlit app
+4. Access the app in your browser
+
+## Data Scrapping
+The project uses Google API key to connect with youtube API and fetch the all details about the channel, given the channel ID. Further the data scrapped is presented in JSON format to users of the streamit application.
+
+## Storing in MYSQL
+Connecting python with MYSQL using mysql.connector allows us to store data in a structured format. Initally, we prepare the data by extracting the required features in channel, video and comments section of the JSON document. Later, we perform a query to check if the channel scrapped already exists in our database or not. If it is avaiable, we are going to update the document with the specified channelID. Else, we insert the channel information as a new document into MYSQL.
+
+
 
 
 
