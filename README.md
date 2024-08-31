@@ -1,6 +1,6 @@
-# Youtube_Data_Harvesting_and_Warehousing :
-## Introduction :
-YouTube Data Harvesting and Warehousing is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable information from YouTube channels. The extracted data is then stored in a MongoDB database, subsequently migrated to a SQL data warehouse, and made accessible for analysis and exploration within the Streamlit app.
+# Youtube_Data_Harvesting_and_Warehousing 
+## Introduction 
+YouTube Data Harvesting and Warehousing is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable information from YouTube channels. The extracted data is then stored in a SQL data warehouse, and made accessible for analysis and exploration within the Streamlit app.
 Table of Contents
 
 ## Table of Contents
@@ -84,5 +84,15 @@ Table : Playlist
 | `channel_id` | `VARCHAR(255)` | Unique identifier of the channel     |
 | `playlist_name` | `VARCHAR(255)` | Name of the playlist                |
 
+## Querying
+There exists 10 pre-defined queries in "Query" tab of the portal. Choosing any one from the select box allows us to query the tables accordingly.
 
+## Viewing and Visualizing
+We can view the 4 tables (channel, video, comment and playlist) present in SQL in the streamlit application by Navigating to the "View" tab.
+Also, streamlit visualization functions help us understand the power of visualization by plotting scatter plots, bar charts and line graphs in the "Visualize" tab.
+
+## Further Improvements
+The project can further be enhanced by performing sentimental analysis on the video description and comments extracted for each video. This will help us to better understand and organize the genere of the video published, which in turn can be given as a recommendation for the preferred age group of viewers.
+If you encounter any issues or have suggestions for improvements, feel free to reach out.
+Email : [ruarunraj2013@gmail.com](mailto:ruarunraj2013@gmail.com)
 
