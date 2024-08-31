@@ -95,5 +95,7 @@ The project can further be enhanced by performing sentimental analysis on the vi
 If you encounter any issues or have suggestions for improvements, feel free to reach out.
 
 Email : [ruarunraj2013@gmail.com](mailto:ruarunraj2013@gmail.com)
-Linkedin : [Arunraj Udayakumar's LinkedIn Profile](https://www.linkedin.com/in/arunraj-udayakumar-27722a146/)
+
+Linkedin : https://www.linkedin.com/in/arunraj-udayakumar-27722a146/
+
 
