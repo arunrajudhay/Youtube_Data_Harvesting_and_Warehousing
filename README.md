@@ -42,8 +42,16 @@ To use this project, follow these steps:
 The project uses Google API key to connect with youtube API and fetch the all details about the channel, given the channel ID. Further the data scrapped is presented in JSON format to users of the streamit application.
 
 ## Storing in MYSQL
-Connecting python with MYSQL using mysql.connector allows us to store data in a structured format. Initally, we prepare the data by extracting the required features in channel, video and comments section of the JSON document. Later, we perform a query to check if the channel scrapped already exists in our database or not. If it is avaiable, we are going to update the document with the specified channelID. Else, we insert the channel information as a new document into MYSQL.
+Connecting python with MYSQL using mysql.connector allows us to store data in a structured format. Initally, we prepare the data by extracting the required features in channel, video and comments section of the JSON document. Later, we perform a query to check if the channel scrapped already exists in our database or not. If it is avaiable, we are going to update the document with the specified channelID. Else, we insert the channel information as a new document into MYSQL.We have already created 3 tables in the backend called channel, video and comment. The tables have been described below.
 
+Table : Channel
+| Column Name         | Data Type       | Description                        |
+|---------------------|-----------------|------------------------------------|
+| `channel_id`        | `VARCHAR(255)`  | Unique identifier of the channel   |
+| `channel_name`      | `VARCHAR(255)`  | Name of the channel                |
+| `views_count`       | `INT`           | Total views for the channel        |
+| `description`       | `TEXT`          | Description of the channel         |
+| `subscription_count`  | `INT`         | Total channel subscribers          |
 
 
 
