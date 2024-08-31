@@ -42,7 +42,7 @@ To use this project, follow these steps:
 The project uses Google API key to connect with youtube API and fetch the all details about the channel, given the channel ID. Further the data scrapped is presented in JSON format to users of the streamit application.
 
 ## Storing in MYSQL
-Connecting python with MYSQL using mysql.connector allows us to store data in a structured format. Initally, we prepare the data by extracting the required features in channel, video and comments section of the JSON document. Later, we perform a query to check if the channel scrapped already exists in our database or not. If it is avaiable, we are going to update the document with the specified channelID. Else, we insert the channel information as a new document into MYSQL.We have already created 3 tables in the backend called channel, video and comment. The tables have been described below.
+Connecting python with MYSQL using mysql.connector allows us to store data in a structured format. Initally, we prepare the data by extracting the required features in channel, video and comments section of the JSON document. Later, we perform a query to check if the channel scrapped already exists in our database or not. If it is avaiable, we are going to update the document with the specified channelID. Else, we insert the channel information as a new document into MYSQL.We have already created 4 tables in the backend called channel, video and comment. The tables have been described below.
 
 Table : Channel
 | Column Name         | Data Type       | Description                        |
@@ -53,6 +53,36 @@ Table : Channel
 | `description`       | `TEXT`          | Description of the channel         |
 | `subscription_count`  | `INT`         | Total channel subscribers          |
 
+Table : Video
+| Column Name        | Data Type      | Description                                          |
+|--------------------|----------------|------------------------------------------------------|
+| `video_id`         | `VARCHAR(255)` | Unique identifier of the video                       |
+| `video_name`       | `VARCHAR(255)` | Name of the video                                    |
+| `channel_name`     | `VARCHAR(255)` | Name of the channel                                  |
+| `video_description`| `VARCHAR(255)` | Description of the video                             |
+| `published_at`     | `DATETIME`     | Date and time at which the video is published        |
+| `view_count`       | `INT`          | Total views for the video                            |
+| `like_count`       | `INT`          | Total likes for the video                            |
+| `favorite_count`   | `INT`          | Total number of viewers who marked the video as favorite |
+| `comment_count`    | `INT`          | Total comments for the video                         |
+| `duration`         | `INT`          | Duration of the video in seconds                     |
+| `thumbnail`        | `VARCHAR(255)` | Link to the thumbnail image                          |
+| `caption_status`   | `VARCHAR(255)` | Caption status of the video                          |
+
+Table : Comment
+| Column Name           | Data Type      | Description                                 |
+|-----------------------|----------------|---------------------------------------------|
+| `comment_id`          | `VARCHAR(255)` | Unique identifier of the comment            |
+| `comment_text`        | `TEXT`         | Text content of the comment                 |
+| `comment_author`      | `VARCHAR(255)` | Name or identifier of the comment's author  |
+| `comment_published_at`| `DATETIME`     | Date and time at which the comment was published |
+
+Table : Playlist
+| Column Name  | Data Type      | Description                          |
+|--------------|----------------|--------------------------------------|
+| `playlist_id`| `VARCHAR(255)` | Unique identifier of the playlist    |
+| `channel_id` | `VARCHAR(255)` | Unique identifier of the channel     |
+| `playlist_name` | `VARCHAR(255)` | Name of the playlist                |
 
 
 
