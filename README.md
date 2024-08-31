@@ -18,10 +18,9 @@ Install the following packages to run the project :
 1. pip install streamlit
 2. pip install google-api-python-client
 3. pip install mysql-connector-python
-4. pip install isodate
-5. pip install pandas
-6. pip install plotly-express
-7. pip install streamlit_option_menu
+4. pip install pandas
+5. pip install plotly-express
+6. pip install streamlit_option_menu
 
 ## Key Technologies and Skills
 1. Python scripting
@@ -96,4 +95,5 @@ The project can further be enhanced by performing sentimental analysis on the vi
 If you encounter any issues or have suggestions for improvements, feel free to reach out.
 
 Email : [ruarunraj2013@gmail.com](mailto:ruarunraj2013@gmail.com)
+Linkedin : [Arunraj Udayakumar's LinkedIn Profile](https://www.linkedin.com/in/arunraj-udayakumar-27722a146/)
 
