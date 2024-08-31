@@ -14,14 +14,22 @@ Table of Contents
 8. Further Improvements
 
 ## Libraries needed :
-1. Install the following packages to run the project :
-2. pip install streamlit
-pip install google-api-python-client
-pip install mysql-connector-python
-pip install isodate
-pip install pandas
-pip install plotly-express
-pip install streamlit_option_menu
+Install the following packages to run the project :
+1. pip install streamlit
+2. pip install google-api-python-client
+3. pip install mysql-connector-python
+4. pip install isodate
+5. pip install pandas
+6. pip install plotly-express
+7. pip install streamlit_option_menu
+
+## Key Technologies and Skills
+1. Python scripting
+2. Web scraping
+3. MYSQL querying
+4. Application Programming Interface (API) integration
+5. Streamlit development
+6. Plotly visualization
 
 
 
