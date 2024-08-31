@@ -1,7 +1,7 @@
 # Youtube_Data_Harvesting_and_Warehousing :
- This is an open-source project repo which deals with youtube data scrapping, analyzing and visualizing using python, mongodb, mysql and streamlit.
 ## Introduction :
-Youtube is a popular online video sharing and social media platform owned and operated by Google. This project aims at scrapping youtube data lake with channel ID, querying and visualizing the data by creating a Streamlit application.
+YouTube Data Harvesting and Warehousing is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable information from YouTube channels. The extracted data is then stored in a MongoDB database, subsequently migrated to a SQL data warehouse, and made accessible for analysis and exploration within the Streamlit app.
+
 # Libraries needed :
 ## Install the following packages to run the project :
 pip install streamlit
