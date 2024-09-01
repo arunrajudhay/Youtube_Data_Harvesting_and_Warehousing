@@ -9,7 +9,7 @@ import plotly.express as px
 
 #API key connection to interact with youtube API
 def connect_api_key():
-    api_key="AIzaSyBrDi9eWIPzj3kAaX0HIxZxOokDRlSodhI"
+    api_key="Your_api_key"
     api_service_name = "youtube"
     api_version = "v3"
     youtube=googleapiclient.discovery.build(api_service_name,
@@ -189,7 +189,7 @@ if web=="DATA COLLECTION":
 if web=="MIGRATE TO SQL":
     C=slt.text_input("Enter the Channel ID")
     if slt.button("migrate to sql"):
-        conn = mysql.connector.connect(host="localhost", user="root", password="Arunudhay2024",database="youtube")
+        conn = mysql.connector.connect(host="localhost", user="root", password="your_password",database="your_db")
         if conn.is_connected():
             print("Connected to MySQL database")
 
