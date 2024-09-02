@@ -1,7 +1,6 @@
 # Youtube_Data_Harvesting_and_Warehousing 
 ## Introduction 
 YouTube Data Harvesting and Warehousing is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable information from YouTube channels. The extracted data is then stored in a SQL data warehouse, and made accessible for analysis and exploration within the Streamlit app.
-Table of Contents
 
 ## Table of Contents
 1. Pre-requisites
