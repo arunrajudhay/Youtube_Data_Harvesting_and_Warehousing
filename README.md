@@ -9,8 +9,7 @@ YouTube Data Harvesting and Warehousing is a project aimed at developing a user-
 4. Data Scrapping
 5. Storing in MySQL
 6. Querying
-7. Viewing and Visualization
-8. Further Improvements
+7. Further Improvements
 
 ## Pre-requisites :
 Install the following packages to run the project :
@@ -84,10 +83,6 @@ Table : Playlist
 
 ## Querying
 There exists 10 pre-defined queries in "Query" tab of the portal. Choosing any one from the select box allows us to query the tables accordingly.
-
-## Viewing and Visualizing
-We can view the 4 tables (channel, video, comment and playlist) present in SQL in the streamlit application by Navigating to the "View" tab.
-Also, streamlit visualization functions help us understand the power of visualization by plotting scatter plots, bar charts and line graphs in the "Visualize" tab.
 
 ## Further Improvements
 The project can further be enhanced by performing sentimental analysis on the video description and comments extracted for each video. This will help us to better understand and organize the genere of the video published, which in turn can be given as a recommendation for the preferred age group of viewers.
