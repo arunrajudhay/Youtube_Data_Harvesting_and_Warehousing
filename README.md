@@ -92,6 +92,6 @@ If you encounter any issues or have suggestions for improvements, feel free to r
 
 Email : [ruarunraj2013@gmail.com](mailto:ruarunraj2013@gmail.com)
 
-Linkedin : https://www.linkedin.com/in/arunraj-udayakumar-27722a146/
+Linkedin : https://www.linkedin.com/in/arunraj-r-u-27722a146
 
 Thanks for showing interest in this repository !
